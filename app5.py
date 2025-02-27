@@ -29,5 +29,6 @@ if st.button("Code Review"):
         Format the response in an easy-to-understand manner with **bold key points**.
         """)
         st.write(response.text)
+        st.write('Thank you')
     else:
         st.warning("Please enter some code before submitting.")
